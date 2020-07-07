@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toDoList {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: red;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.formToDo {
+  margin: 3rem 0rem;
+}
+
+.toDoList {
+  border: red 1px solid;
+  width: 300px;
+}
+.toDoItem {
+  margin-right: 0.2rem;
+  border: blue 1px solid;
+}
